@@ -35,11 +35,6 @@ const addThenMult = pipeline(plus1, mult2);
 addThenMult(5)
 
 // λ演算的写法
-<<<<<<< HEAD
-fix = λf.(λx.f(λv.x(x)(v)))(λx.f(λv.x(x)(v)));
-=======
-// fix = λf.(λx.f(λv.x(x)(v)))(λx.f(λv.x(x)(v)));
->>>>>>> dab1bc6262eaaafa41871ee785401efb77663794
 
 // ES6的写法
 var fix = f => (x => f(v => x(x)(v)))
