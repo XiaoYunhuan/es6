@@ -1,8 +1,12 @@
 {
   "compilerOptions": {
     "module": "commonjs",
+<<<<<<< HEAD
     "target": "es5",
     "sourceMap": true
+=======
+    "target": "es6"
+>>>>>>> dab1bc6262eaaafa41871ee785401efb77663794
   },
   "exclude": [
     "node_modules"
