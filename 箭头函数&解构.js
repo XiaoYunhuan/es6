@@ -37,4 +37,3 @@ addThenMult(5);
 // λ演算的写法
 // ES6的写法
 var fix = function (f) { return (function (x) { return f(function (v) { return x(x)(v); }); })(function (x) { return f(function (v) { return x(x)(v); }); }); };
-//# sourceMappingURL=箭头函数&解构.js.map

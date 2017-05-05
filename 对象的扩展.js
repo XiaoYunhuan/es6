@@ -79,4 +79,3 @@ myIterable[Symbol.iterator] = function* () {
 };
 console.log(myIterable.slice());
 var _a, _b, _c;
-//# sourceMappingURL=对象的扩展.js.map
